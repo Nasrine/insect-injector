@@ -2,10 +2,31 @@
 var insects = [
 {
   name: 'Ant Nest Beetle',
+  image:
   family: carabidae,
   size: 6-20 mm,
-  eat: insects,
-  protein: 0.74
+  food: insects,
+};
+{
+  name: 'DungBeetle',
+
+  family: scarabidae,
+  size: 20-30 mm,
+  food: dung,
+};
+{
+  name: 'Stage Beetle',
+
+  family: lucanidae,
+  size: 5-120 mm,
+  food: plants,
+};
+{
+  name: 'Tortoise Beetle',
+
+  family: Cassidinae,
+  size: 1-18 mm,
+  food: plants,
 };
 ]
 
