@@ -1,36 +1,52 @@
 // Create your variable here, name it `insects`
-var insects = {
-  name: 'Ant Nest Beetle',
-};
 
-var x = document.getElementById("myImg");("ant-Nest-Beetle.jpg");
+var insects = [
 
 {
-  family: carabidae,
-  size: 6-20 mm,
-  food: insects,
-};
+  name:'Ant Nest Beetle',
+  img : 'ant-Nest-Beetle.jpg',
+  family: 'Carabidae',
+  size: [6, 20],
+  food: {
+    eatsInsects: true,
+    eatsDung: false,
+    eatsPlants: false,
+  }
+},
+
 {
-  name: 'DungBeetle',
-  var x = document.getElementById("myImg");("dung-Beetle.jpg");
-  family: scarabidae,
-  size: 20-30 mm,
-  food: dung,
-};
+  name: 'Dung Beetle',
+  img: 'dung-Beetle.jpg',
+  family: 'scarabidae',
+  size: [20, 30],
+  food: {
+    eatsInsects: false,
+    eatsDung: true,
+    eatsPlants: false,
+  }
+},
 {
-  name: 'Stage Beetle',
-  var x = document.getElementById("myImg");("stage-Beetle.jpg");
-  family: lucanidae,
-  size: 5-120 mm,
-  food: plants,
-};
+  name: 'Stag Beetle',
+  img: 'Stag-Beetle.jpg',
+  family: 'lucanidae',
+  size: [5, 120],
+  food: {
+    eatsInsects: false,
+    eatsDung: false,
+    eatsPlants: true,
+  }
+},
 {
   name: 'Tortoise Beetle',
-  var x = document.getElementById("myImg");("tortoise-Beetle.jpg");
-  family: Cassidinae,
-  size: 1-18 mm,
-  food: plants,
-};
+  img : "tortoise-Beetle.jpg",
+  family: 'Cassidinae',
+  size: [1, 18],
+  food: {
+    eatsInsects: false,
+    eatsDung: false,
+    eatsPlants: true,
+  }
+},
 ];
 
 // ##########################################################
@@ -47,12 +63,12 @@ var writeInsects = function (bugs) {
     document.write('<h2>' + bug.name + '</h2>');
     document.write('<img src="images/' + bug.img + '" alt="">');
     document.write('<dl>');
+
     document.write('<dt>Family</dt>');
     document.write('<dd><i>' + bug.family + '</i></dd>');
     document.write('<dt>Size</dt>');
     document.write('<dd>' + bug.size[0] + '–' + bug.size[1] + ' mm</dd>');
     document.write('<dt>Eats</dt>');
-
     document.write('<dd>');
 
     if (bug.food.eatsInsects) {
