@@ -2,51 +2,51 @@
 
 var insects = [
 
-{
-  name:'Ant Nest Beetle',
-  img : 'ant-Nest-Beetle.jpg',
-  family: 'Carabidae',
-  size: [6, 20],
-  food: {
-    eatsInsects: true,
-    eatsDung: false,
-    eatsPlants: false,
-  }
-},
+  {
+    name: 'Ant Nest Beetle',
+    img: 'ant-Nest-Beetle.jpg',
+    family: 'Carabidae',
+    size: [6, 20],
+    food: {
+      eatsInsects: true,
+      eatsDung: false,
+      eatsPlants: false,
+    }
+  },
 
-{
-  name: 'Dung Beetle',
-  img: 'dung-Beetle.jpg',
-  family: 'scarabidae',
-  size: [20, 30],
-  food: {
-    eatsInsects: false,
-    eatsDung: true,
-    eatsPlants: false,
-  }
-},
-{
-  name: 'Stag Beetle',
-  img: 'Stag-Beetle.jpg',
-  family: 'lucanidae',
-  size: [5, 120],
-  food: {
-    eatsInsects: false,
-    eatsDung: false,
-    eatsPlants: true,
-  }
-},
-{
-  name: 'Tortoise Beetle',
-  img : "tortoise-Beetle.jpg",
-  family: 'Cassidinae',
-  size: [1, 18],
-  food: {
-    eatsInsects: false,
-    eatsDung: false,
-    eatsPlants: true,
-  }
-},
+  {
+    name: 'Dung Beetle',
+    img: 'dung-Beetle.jpg',
+    family: 'scarabidae',
+    size: [20, 30],
+    food: {
+      eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false,
+    }
+  },
+  {
+    name: 'Stag Beetle',
+    img: 'Stag-Beetle.jpg',
+    family: 'lucanidae',
+    size: [5, 120],
+    food: {
+      eatsInsects: false,
+      eatsDung: false,
+      eatsPlants: true,
+    }
+  },
+  {
+    name: 'Tortoise Beetle',
+    img: 'tortoise-Beetle.jpg',
+    family: 'Cassidinae',
+    size: [1, 18],
+    food: {
+      eatsInsects: false,
+      eatsDung: false,
+      eatsPlants: true,
+    }
+  },
 ];
 
 // ##########################################################
